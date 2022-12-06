@@ -17,9 +17,9 @@ body {
   letter-spacing: 0.02em;
 }
 .container {
-  width: 1182px;
-  padding-left: 12px;
-  padding-right: 12px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 
@@ -162,12 +162,22 @@ span {
 
 /* Sections - Samples, Team + Portfolio */
 
-.section {
+.section-samples {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
-.advantages {
+.section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-advantages {
   padding-top: 120px;
 }
+.section-buttons {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .features {
   display: flex;
 }
@@ -198,6 +208,9 @@ span {
   font-size: 20px;
   line-height: 1.2;
 }
+.section-items {
+  margin-top: 0;
+}
 .samples {
   display: flex;
   row-gap: 24px;
@@ -220,10 +233,11 @@ span {
   margin-right: 24px;
 }
 /* .name {
-  margin-bottom: 32px;
-} */
+  margin-bottom: 32px; */
+
 .team-name {
   text-align: center;
+  margin-bottom: 32px;
 }
 /* .samples:not(:last-child) {
   row-gap: 24px;
@@ -237,8 +251,10 @@ span {
   display: inline-block;
   min-width: 69px;
   padding: 12px 24px;
+  margin-bottom: 72px;
   border-radius: 4px;
   border: 1px transparent;
+
   color: var(--accent-color);
   background-color: var(--secondary-button-color);
   font-family: Roboto, sans-serif;
@@ -264,8 +280,6 @@ span {
 .secondary-btn-list {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
-  margin-bottom: 72px;
 }
 /* .secondary-button:not(:last-child) {
   margin-left: 24px;
@@ -294,23 +308,43 @@ footer {
 .logo-footer {
   color: var(--secondary-background-color);
 }
-
-/* .logo-down {
-  margin-bottom: 16px;
-} */
-
-.summary {
-  margin-top: 16px;
-  max-width: 264px;
+.subsection-portfolio {
+  margin-bottom: 8px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 .container-footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.subsection-service-item {
+/* .logo-down {
+  margin-bottom: 16px;
+} */
+
+.summary {
+  width: 264px;
+  margin-top: 16px;
+}
+.footer-logo {
+  padding: 0;
+  margin: 0;
+}
+/* .logo-footer {
+  margin: 0;
+  padding: 0;
+} */
+/* .container-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+} */
+/* .subsection-service-item {
   margin: 0;
 }
 .name {
   margin-top: 8px;
   margin-bottom: 32px;
 }
+.section-items {
+  margin-top: 0;
+} */
