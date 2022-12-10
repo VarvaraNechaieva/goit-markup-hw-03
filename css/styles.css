@@ -25,13 +25,7 @@ body {
 
   align-items: center;
 }
-/* .wrapper {
-  width: 1440;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  text-align: center;
-} */
+
 /* Logo */
 
 header {
@@ -132,9 +126,7 @@ span {
   text-align: center;
   background-color: var(--secondary-text-color);
 }
-/* .centered {
-  text-align: center;
-} */
+
 /* Order Service button*/
 .order-button {
   display: inline-block;
@@ -181,10 +173,8 @@ span {
 .features {
   display: flex;
 }
-/* .advantages-item {
-  width: 264px;
-  flex-basis: (100%-72%/4);
-} */
+/* Advantages Section */
+
 .advantages-item:not(:last-child) {
   margin-right: 24px;
 }
@@ -232,26 +222,19 @@ span {
 .team-member:not(:last-child) {
   margin-right: 24px;
 }
-/* .name {
-  margin-bottom: 32px; */
+/* team-name */
 
 .team-name {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
-/* .samples:not(:last-child) {
-  row-gap: 24px;
-}
-.our-team:not(:last-child) {
-  row-gap: 24px;
-} */
+
 /* Portfolio buttons */
 
 .secondary-button {
   display: inline-block;
   min-width: 69px;
   padding: 12px 24px;
-  margin-bottom: 72px;
   border-radius: 4px;
   border: 1px transparent;
 
@@ -269,6 +252,7 @@ span {
   margin-right: 72px;
 }
 .secondary-btn-list {
+  margin-bottom: 72px;
   gap: 24px;
 }
 .secondary-button:focus,
@@ -281,13 +265,8 @@ span {
   display: flex;
   justify-content: center;
 }
-/* .secondary-button:not(:last-child) {
-  margin-left: 24px;
-} */
 
-/* .secondary-btn-list:not(:last-child) {
-  margin-right: 24px;
-} */
+/* Services Wrap */
 .wrap {
   padding: 32px 16px;
   border: 0.5px solid #f4f4fd;
@@ -318,9 +297,7 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-/* .logo-down {
-  margin-bottom: 16px;
-} */
+/* Footer logo and text */
 
 .summary {
   width: 264px;
@@ -330,21 +307,5 @@ footer {
   padding: 0;
   margin: 0;
 }
-/* .logo-footer {
-  margin: 0;
-  padding: 0;
-} */
-/* .container-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-} */
-/* .subsection-service-item {
-  margin: 0;
-}
-.name {
-  margin-top: 8px;
-  margin-bottom: 32px;
-}
-.section-items {
-  margin-top: 0;
-} */
+
+/* End */
